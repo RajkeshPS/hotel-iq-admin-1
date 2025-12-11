@@ -23,7 +23,7 @@ npm install
 
 Create a `.env` file:
 \`\`\`env
-REACT_APP_API_BASE_URL=http://your-backend-url:8000
+REACT_APP_BACKEND_BASE_URL=http://your-backend-url:8000
 \`\`\`
 
 ### Run Development Server
@@ -62,14 +62,14 @@ The portal connects to these backend endpoints:
 \`\`\`
 src/
 ├── components/
-│   ├── auth/          # Authentication
-│   ├── bookings/      # Booking management
-│   ├── requests/      # Request management
-│   ├── layout/        # Layout components
-│   └── common/        # Shared components
-├── services/          # API services
-├── theme/             # MUI theme config
-└── App.jsx            # Main app component
+│ ├── auth/ # Authentication
+│ ├── bookings/ # Booking management
+│ ├── requests/ # Request management
+│ ├── layout/ # Layout components
+│ └── common/ # Shared components
+├── services/ # API services
+├── theme/ # MUI theme config
+└── App.jsx # Main app component
 \`\`\`
 
 ## License
